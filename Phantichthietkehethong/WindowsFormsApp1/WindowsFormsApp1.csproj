@@ -52,10 +52,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="login he thong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login he thong.Designer.cs">
+      <DependentUpon>login he thong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lập đơn thuốc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lập đơn thuốc.Designer.cs">
+      <DependentUpon>Lập đơn thuốc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phieuxetnghiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phieuxetnghiem.Designer.cs">
+      <DependentUpon>Phieuxetnghiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phiếu xét nghiệm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phiếu xét nghiệm.Designer.cs">
+      <DependentUpon>Phiếu xét nghiệm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login he thong.resx">
+      <DependentUpon>login he thong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lập đơn thuốc.resx">
+      <DependentUpon>Lập đơn thuốc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phieuxetnghiem.resx">
+      <DependentUpon>Phieuxetnghiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phiếu xét nghiệm.resx">
+      <DependentUpon>Phiếu xét nghiệm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
